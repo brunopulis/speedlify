@@ -2,8 +2,12 @@
   "file": "screenshot.webp",
   "width": 412,
   "height": 823,
-  "noJs": null,
-  "difference": null,
-  "noJsText": null,
-  "capturedAt": null
+  "noJs": {
+    "file": "screenshot-nojs.webp",
+    "width": 412,
+    "height": 823
+  },
+  "capturedAt": "2026-11-16T13:04:20.838Z",
+  "difference": 0,
+  "noJsText": 21.5
 }
