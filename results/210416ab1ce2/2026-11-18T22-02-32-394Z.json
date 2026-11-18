@@ -1,0 +1,295 @@
+{
+  "url": "https://brunopulis.com/",
+  "name": "Bruno Pulis",
+  "group": "pessoal",
+  "groupName": "Bruno Pulis",
+  "timestamp": 1795039352394,
+  "date": "2026-11-18T22:02:32.394Z",
+  "runId": "2026-11-18T22-02-26-840Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44142,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 100,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://brunopulis.com/",
+    "finalUrl": "https://brunopulis.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 995,
+      "lcp": 995,
+      "si": 995,
+      "tbt": 0,
+      "tti": 1001,
+      "cls": 0,
+      "ttfb": 614,
+      "maxPotentialFid": 87,
+      "serverResponseTime": 2,
+      "networkRtt": 15.3,
+      "networkServerLatency": 261.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.5,
+      "elementRenderDelay": 162
+    },
+    "weight": {
+      "total": 176666,
+      "requests": 11,
+      "mainDocument": 15206,
+      "byType": {
+        "total": {
+          "bytes": 176666,
+          "requests": 11
+        },
+        "other": {
+          "bytes": 124226,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 31823,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 15206,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4677,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 734,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5322,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5322,
+      "mainThreadMs": 2.4,
+      "top": [
+        {
+          "entity": "umami.is",
+          "bytes": 5322,
+          "mainThreadMs": 2.4,
+          "byType": {
+            "script": 4677,
+            "other": 645
+          },
+          "typedBytes": 5322
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 551.1,
+      "byGroup": {
+        "other": 383.1,
+        "styleLayout": 84.8,
+        "scriptEvaluation": 37.2,
+        "paintCompositeRender": 22.9,
+        "parseHTML": 20.1,
+        "scriptParseCompile": 3
+      },
+      "bootupMs": 28.1,
+      "longTasks": 1,
+      "longestTaskMs": 87
+    },
+    "dom": {
+      "elements": 167,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2460,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:02:50.452Z",
+      "runtimeMs": 6755.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 826.3,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::7l6gg-1795039394122-6d914fd7bd3e"
+    },
+    "violations": 0,
+    "passes": 432,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18112",
+          "etag": "W/\"022354d9f49949ed207279799328df9d\"",
+          "last-modified": "Wed, 18 Nov 2026 17:00:43 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18120",
+          "etag": "W/\"022354d9f49949ed207279799328df9d\"",
+          "last-modified": "Wed, 18 Nov 2026 17:00:43 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18127",
+          "etag": "W/\"022354d9f49949ed207279799328df9d\"",
+          "last-modified": "Wed, 18 Nov 2026 17:00:43 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18134",
+          "etag": "W/\"022354d9f49949ed207279799328df9d\"",
+          "last-modified": "Wed, 18 Nov 2026 17:00:43 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"022354d9f49949ed207279799328df9d\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
