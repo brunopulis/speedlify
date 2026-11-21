@@ -14,13 +14,6 @@ on:
     - cron: "30 * * * *"
   push:
     branches: [main]
-    # Rebuild when data lands or when the site itself changes.
-    paths:
-      - "results/**"
-      - "src/**"
-      - "lib/**"
-      - "config/**"
-      - "eleventy.config.js"
   workflow_dispatch:
 
 # A newer publish supersedes an in-flight one — there is no value in deploying
