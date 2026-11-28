@@ -1,0 +1,306 @@
+{
+  "url": "https://brunopulis.com/",
+  "name": "Bruno Pulis",
+  "group": "pessoal",
+  "groupName": "Bruno Pulis",
+  "timestamp": 1795838281616,
+  "date": "2026-11-28T03:58:01.616Z",
+  "runId": "2026-11-28T03-57-50-392Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40121,
+  "error": null,
+  "variance": {
+    "min": 81,
+    "max": 100,
+    "spread": 19,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://brunopulis.com/",
+    "finalUrl": "https://brunopulis.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 909,
+      "lcp": 909,
+      "si": 909,
+      "tbt": 0,
+      "tti": 909,
+      "cls": 0,
+      "ttfb": 609,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 9.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.4,
+      "elementRenderDelay": 87
+    },
+    "weight": {
+      "total": 34506,
+      "requests": 23,
+      "mainDocument": 9880,
+      "byType": {
+        "total": {
+          "bytes": 34506,
+          "requests": 23
+        },
+        "stylesheet": {
+          "bytes": 21476,
+          "requests": 17
+        },
+        "document": {
+          "bytes": 9880,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 2147,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 622,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 381,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 17,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 269,
+      "byGroup": {
+        "other": 177.8,
+        "styleLayout": 34.6,
+        "paintCompositeRender": 19.3,
+        "parseHTML": 18.5,
+        "scriptEvaluation": 16.5,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 15.3,
+      "longTasks": 1,
+      "longestTaskMs": 75
+    },
+    "dom": {
+      "elements": 405,
+      "depth": 11,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 17,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3506,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T03:58:17.581Z",
+      "runtimeMs": 5822
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 278.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::zdxwc-1795838320022-23f74c26c500"
+    },
+    "violations": 3,
+    "passes": 692,
+    "incomplete": 3,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(2) > a[href$=\"xn--sr8hvo.ws/\"]",
+            "snippet": "<a href=\"https://xn--sr8hvo.ws/\">IndieWeb Webring</a>"
+          },
+          {
+            "selector": "a[href$=\"previous\"]",
+            "snippet": "<a href=\"https://xn--sr8hvo.ws/previous\">Site anterior</a>"
+          },
+          {
+            "selector": "li:nth-child(2) > a[href$=\"next\"]",
+            "snippet": "<a href=\"https://xn--sr8hvo.ws/next\">Próximo site</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "34657a2ba274",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1409",
+          "etag": "W/\"a27e351855a967e3d904df1d8585571a\"",
+          "last-modified": "Sat, 28 Nov 2026 03:34:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "34657a2ba274",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1416",
+          "etag": "W/\"a27e351855a967e3d904df1d8585571a\"",
+          "last-modified": "Sat, 28 Nov 2026 03:34:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "34657a2ba274",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1422",
+          "etag": "W/\"a27e351855a967e3d904df1d8585571a\"",
+          "last-modified": "Sat, 28 Nov 2026 03:34:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "34657a2ba274",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1428",
+          "etag": "W/\"a27e351855a967e3d904df1d8585571a\"",
+          "last-modified": "Sat, 28 Nov 2026 03:34:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "34657a2ba274",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"a27e351855a967e3d904df1d8585571a\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
